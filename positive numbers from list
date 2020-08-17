@@ -1,0 +1,10 @@
+input_list =[]
+output_list=[]
+number=int(input("range of list"))
+for i in range(number):
+    data=int(input("enter a number"))
+    input_list.append(data)
+    print("input list:",input_list)
+    if data >= 0:
+        output_list.append(data)
+        print("output list:",output_list)
